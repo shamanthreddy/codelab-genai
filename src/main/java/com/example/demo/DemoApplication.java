@@ -31,7 +31,7 @@ class HelloController {
 
     @GetMapping("/")
     public String getFacts(@RequestParam(defaultValue = "dog") String animal) throws IOException {
-        String prompt = "Give me 10 fun facts about " + animal + ". Return this as html without backticks.";
+        String prompt = "Give me 20 fun facts about " + animal + ". Return this as html.";
 
         VertexAI vertexAI = new VertexAI(projectId, null);
         GenerativeModel model = new GenerativeModel("gemini-1.5-flash", vertexAI);
