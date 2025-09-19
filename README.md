@@ -1,4 +1,4 @@
-# codelab-genai
+# genai-vertexai-webapp
 
 A minimal Spring Boot application demonstrating how to call Google Cloud Vertex AI (Gemini) from Java. The app exposes a simple HTTP GET endpoint that returns HTML with “fun facts” about a requested animal by prompting the Gemini 1.5 Flash model.
 
